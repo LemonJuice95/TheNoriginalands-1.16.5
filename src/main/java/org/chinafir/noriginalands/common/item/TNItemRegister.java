@@ -13,4 +13,6 @@ public class TNItemRegister {
     public static final RegistryObject<Item> RAW_GOLD = ITEMS.register("raw_gold", () -> new TNItemBase(new Item.Properties().tab(TNGroupRegister.tngroup)));
 
     public static final RegistryObject<Item> INDIGO_STEEL_INGOT = ITEMS.register("indigo_steel_ingot", () -> new TNItemBase(new Item.Properties().tab(TNGroupRegister.tngroup)));
+
+    public static final RegistryObject<Item> LINDER_GIAO = ITEMS.register("linder's giao",() -> new TNItemBase(new Item.Properties().tab(TNGroupRegister.tngroup)));
 }
